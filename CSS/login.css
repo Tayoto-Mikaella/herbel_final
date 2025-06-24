@@ -1,0 +1,29 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.theme-red {
+    --tw-bg-opacity: 1;
+    background-color: rgb(185 28 28 / var(--tw-bg-opacity));
+}
+
+.theme-red-text {
+     --tw-text-opacity: 1;
+    color: rgb(185 28 28 / var(--tw-text-opacity));
+}
+
+.theme-red-border {
+     --tw-border-opacity: 1;
+    border-color: rgb(185 28 28 / var(--tw-border-opacity));
+}
+
+.inactive-tab {
+    background-color: #f3f4f6;
+    color: #374151;
+}
+
+.active-tab {
+    background-color: rgb(185 28 28);
+    color: white;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
